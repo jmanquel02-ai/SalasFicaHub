@@ -10,7 +10,7 @@ y obtener una ruta desde un punto de inicio hasta la sala destino.
 
 ## Integrantes
 - Jonathan Manquel
-- Bastián Escobar
+- Bastián Escobar Curinao
 - Vicente Flores
 
 **Profesor:** Samuel Sepúlveda
