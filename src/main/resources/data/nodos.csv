@@ -1,0 +1,15 @@
+id,latitud,longitud,descripcion,vecinos
+N001,-38.749362,-72.614420,la vía peatonal principal desde la Entrada Francisco Salazar,N002|N010
+N002,-38.749465,-72.616676,el sendero de acceso desde calle Montevideo,N001|N003|N011
+N003,-38.747883,-72.617735,el pasillo exterior junto al sector Uruguay y el Café Literario,N002|N004|N012
+N004,-38.746559,-72.617121,el acceso peatonal por calle Uruguay Norte,N003|N005|N013
+N005,-38.745756,-72.614624,la vía desde la Entrada Candelaria hacia el Decanato FICA,N004|N006|N014
+N006,0.0,0.0,el frontis del Pabellón RA (Teodoro Wickel),N005|N007
+N007,0.0,0.0,los accesos principales del Pabellón R1,N006|N008|N013
+N008,0.0,0.0,la explanada frente al Pabellón R2,N007|N009|N014
+N009,0.0,0.0,las puertas de acceso al Pabellón R (Gilberto Montero),N008|N010|N014
+N010,0.0,0.0,los pasillos exteriores colindantes al Pabellón D,N001|N009|N011
+N011,0.0,0.0,los accesos frontales del Pabellón E,N002|N010|N012
+N012,0.0,0.0,la plazoleta central que conecta los pabellones del sector,N003|N008|N011
+N013,0.0,0.0,el sendero norte que divide los pabellones R1 y R2,N004|N007|N008
+N014,0.0,0.0,el sector sur que conecta los pabellones R y D,N005|N008|N009
