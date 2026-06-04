@@ -1,63 +1,84 @@
 # SalasFICA Hub
 
-Sistema de orientación académica para la Facultad de Ingeniería y Ciencias de la Universidad de La Frontera (UFRO), desarrollado en Java utilizando Programación Orientada a Objetos (POO) y arquitectura Modelo-Vista-Controlador (MVC).
-
-## Descripción del proyecto
-
-SalasFICA Hub busca facilitar la orientación de estudiantes nuevos, visitantes y miembros de la comunidad universitaria dentro del campus UFRO. El sistema permite consultar salas académicas y visualizar una ruta desde distintos puntos de acceso hacia el destino seleccionado.
-
-La aplicación utiliza una representación del campus mediante nodos e intersecciones, permitiendo calcular recorridos mediante algoritmos de búsqueda y mostrar instrucciones básicas de navegación al usuario.
+Sistema de orientación académica para la Facultad de Ingeniería y Ciencias de la Universidad de La Frontera (UFRO), desarrollado en Java utilizando Programación Orientada a Objetos (POO) y arquitectura Modelo–Vista–Controlador (MVC).
 
 ---
 
-## Objetivo
+# ⚠️ IMPORTANTE
+
+## La versión funcional del proyecto se encuentra en la rama:
+
+# `avance2-integracion`
+
+Para obtener el código correspondiente al Avance 02, debe clonarse directamente dicha rama:
+
+```bash
+git clone -b avance2-integracion https://github.com/jmanquel02-ai/SalasFicaHub.git
+```
+
+Si se clona únicamente la rama principal (`master`), no se obtendrá la versión completa del proyecto correspondiente al avance entregado.
+
+---
+
+# Descripción del proyecto
+
+SalasFICA Hub busca facilitar la orientación de estudiantes nuevos, visitantes y miembros de la comunidad universitaria dentro del campus UFRO.
+
+El sistema permite consultar salas académicas, visualizar puntos de referencia relevantes y generar rutas desde distintos puntos de acceso hacia una sala de destino.
+
+La aplicación representa el campus mediante nodos e intersecciones conectadas, permitiendo calcular recorridos utilizando algoritmos de búsqueda y mostrar instrucciones básicas de navegación al usuario.
+
+---
+
+# Objetivo
 
 Desarrollar una herramienta que permita:
 
 * Consultar salas académicas de la Facultad de Ingeniería y Ciencias.
 * Seleccionar un punto de inicio dentro del campus.
-* Calcular una ruta hacia la sala destino.
+* Calcular una ruta hacia una sala destino.
 * Visualizar el recorrido en una interfaz gráfica.
 * Aplicar conceptos de Programación Orientada a Objetos y arquitectura MVC.
 
 ---
 
-## Funcionalidades implementadas
+# Funcionalidades implementadas
 
-### Gestión de ubicaciones
+## Gestión de ubicaciones
 
 * Registro de edificios académicos.
 * Registro de salas.
 * Registro de puntos de referencia.
 * Modelado de intersecciones y nodos de navegación.
 
-### Búsqueda y cálculo de rutas
+## Búsqueda y cálculo de rutas
 
 * Selección de punto de origen.
 * Búsqueda de salas por código.
 * Generación de rutas mediante Breadth First Search (BFS).
 * Cálculo estimado de distancia recorrida.
 
-### Interfaz gráfica
+## Interfaz gráfica
 
 * Ventana de bienvenida.
 * Selección de sala destino.
-* Visualización de mapa del campus.
+* Visualización del mapa del campus.
 * Visualización gráfica de rutas.
 * Panel de instrucciones de navegación.
 
-### Gestión de datos
+## Gestión de datos
 
-* Separación de datos y lógica de negocio.
+* Separación entre datos y lógica de negocio.
 * Carga de información desde recursos del proyecto.
+* Administración centralizada de información del campus.
 
 ---
 
-## Arquitectura del sistema
+# Arquitectura del sistema
 
-El proyecto implementa el patrón Modelo-Vista-Controlador (MVC).
+El proyecto implementa el patrón Modelo–Vista–Controlador (MVC).
 
-### Modelo
+## Modelo
 
 Representa las entidades del dominio:
 
@@ -68,7 +89,7 @@ Representa las entidades del dominio:
 * Nodo
 * Ruta
 
-### Vista
+## Vista
 
 Gestiona la interacción con el usuario:
 
@@ -76,14 +97,14 @@ Gestiona la interacción con el usuario:
 * MapaView
 * InstruccionesView
 
-### Controlador
+## Controlador
 
 Coordina la comunicación entre modelo y vistas:
 
 * AppController
 * BusquedaController
 
-### Datos
+## Datos
 
 Gestiona la carga y administración de información:
 
@@ -92,42 +113,44 @@ Gestiona la carga y administración de información:
 
 ---
 
-## Estructura del proyecto
+# Estructura del proyecto
 
 ```text
 src
 ├── main
-│   ├── java
-│   │   ├── controlador
-│   │   ├── datos
-│   │   ├── launcher
-│   │   ├── modelo
-│   │   └── vista
-│   │
-│   └── resources
-│       ├── data
-│       └── img
+│
+├── java
+│   ├── controlador
+│   ├── datos
+│   ├── launcher
+│   ├── modelo
+│   └── vista
+│
+└── resources
+    ├── data
+    └── img
 ```
 
 ---
 
-## Tecnologías utilizadas
+# Tecnologías utilizadas
 
 * Java 17
 * Swing
 * Maven
 * Git
 * GitHub
+* IntelliJ IDEA
 
 ---
 
-## Requisitos
+# Requisitos
 
 * IntelliJ IDEA
 * JDK 17 o superior
 * Git
 
-Verificar versión de Java:
+Verificar instalación de Java:
 
 ```bash
 java -version
@@ -135,15 +158,17 @@ java -version
 
 ---
 
-## Ejecución del proyecto
+# Ejecución del proyecto
 
-### Clonar repositorio
+## Paso 1: Clonar la rama correcta
 
 ```bash
-git clone https://github.com/jmanquel02-ai/SalasFicaHub.git
+git clone -b avance2-integracion https://github.com/jmanquel02-ai/SalasFicaHub.git
 ```
 
-### Abrir en IntelliJ IDEA
+---
+
+## Paso 2: Abrir en IntelliJ IDEA
 
 1. Abrir IntelliJ IDEA.
 2. Seleccionar **Open**.
@@ -157,7 +182,9 @@ Click derecho → src/main/java
 Mark Directory As → Sources Root
 ```
 
-### Ejecutar aplicación
+---
+
+## Paso 3: Ejecutar la aplicación
 
 Abrir:
 
@@ -173,7 +200,7 @@ Run 'Main.main()'
 
 ---
 
-## Conceptos de Programación Orientada a Objetos utilizados
+# Conceptos de Programación Orientada a Objetos aplicados
 
 * Encapsulamiento
 * Herencia
@@ -186,9 +213,9 @@ Run 'Main.main()'
 
 ---
 
-## Estado actual del proyecto
+# Estado actual del proyecto
 
-### Implementado
+## Implementado
 
 * Arquitectura MVC funcional.
 * Modelo de dominio completo.
@@ -196,15 +223,17 @@ Run 'Main.main()'
 * Interfaz gráfica operativa.
 * Visualización de recorridos.
 * Sistema básico de navegación.
+* Organización modular del código.
 
-### Próximas mejoras
+## Próximas mejoras
 
-* Instrucciones de navegación más detalladas.
-* Mejoras en experiencia de usuario.
+* Mejoras en las instrucciones de navegación.
+* Optimización de rutas.
+* Mejor experiencia visual para el usuario.
 
 ---
 
-## Integrantes
+# Integrantes
 
 * Jonathan Manquel
 * Bastián Escobar
@@ -212,11 +241,12 @@ Run 'Main.main()'
 
 ---
 
-## Asignatura
+# Asignatura
 
-ICC490-1 Programación Orientada a Objetos
+**ICC490-1 — Programación Orientada a Objetos**
 
 Universidad de La Frontera
 Facultad de Ingeniería y Ciencias
 
-2026
+**Año 2026**
+
