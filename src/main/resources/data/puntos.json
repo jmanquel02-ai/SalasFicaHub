@@ -1,0 +1,42 @@
+[
+  {
+    "id": "P1",
+    "nombre": "P1 — Entrada Francisco Salazar",
+    "descripcion": "Sector Francisco Salazar, frente a Edificio Irma Salas",
+    "latitud": -38.749362,
+    "longitud": -72.61442,
+    "nodoId": "N001"
+  },
+  {
+    "id": "P2",
+    "nombre": "P2 — Entrada Montevideo",
+    "descripcion": "Sector Montevideo, Dirección de Prevención de Riesgos",
+    "latitud": -38.749465,
+    "longitud": -72.616676,
+    "nodoId": "N002"
+  },
+  {
+    "id": "P3",
+    "nombre": "P3 — Sector Uruguay sur",
+    "descripcion": "Sector Uruguay, Café Literario y Gimnasio Andrés Bello",
+    "latitud": -38.747883,
+    "longitud": -72.617735,
+    "nodoId": "N003"
+  },
+  {
+    "id": "P4",
+    "nombre": "P4 — Entrada Uruguay norte",
+    "descripcion": "Sector Uruguay norte, entrada Dirección de Desarrollo",
+    "latitud": -38.746559,
+    "longitud": -72.617121,
+    "nodoId": "N004"
+  },
+  {
+    "id": "P5",
+    "nombre": "P5 — Entrada Candelaria",
+    "descripcion": "Sector Candelaria, Decanato FICA y Dirección de Registro",
+    "latitud": -38.745756,
+    "longitud": -72.614624,
+    "nodoId": "N005"
+  }
+]

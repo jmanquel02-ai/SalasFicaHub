@@ -1,0 +1,8 @@
+[
+  {"id":"R",  "nombre":"Pabellón de Aulas Gilberto Montero","numMapa":21,"descripcion":"Edificio principal de aulas FICA","latitud":0.0,"longitud":0.0},
+  {"id":"R1", "nombre":"Edificio de Aulas R1",              "numMapa":22,"descripcion":"Edificio de aulas R1 FICA",        "latitud":0.0,"longitud":0.0},
+  {"id":"R2", "nombre":"Edificio de Aulas R2",              "numMapa":23,"descripcion":"Edificio de aulas R2 FICA",        "latitud":0.0,"longitud":0.0},
+  {"id":"RA", "nombre":"Pabellón de Aulas Teodoro Wickel",  "numMapa":26,"descripcion":"Pabellón RA FICA",                 "latitud":0.0,"longitud":0.0},
+  {"id":"D",  "nombre":"Edificio de Aulas D",               "numMapa":30,"descripcion":"Edificio de aulas D FICA",         "latitud":0.0,"longitud":0.0},
+  {"id":"E",  "nombre":"Edificio de Aulas E",               "numMapa":31,"descripcion":"Edificio de aulas E FICA",         "latitud":0.0,"longitud":0.0}
+]
