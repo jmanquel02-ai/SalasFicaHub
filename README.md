@@ -4,22 +4,6 @@ Sistema de orientación académica para la Facultad de Ingeniería y Ciencias de
 
 ---
 
-# ⚠️ IMPORTANTE
-
-## La versión funcional del proyecto se encuentra en la rama:
-
-# `avance2-integracion`
-
-Para obtener el código correspondiente al Avance 02, debe clonarse directamente dicha rama:
-
-```bash
-git clone -b avance2-integracion https://github.com/jmanquel02-ai/SalasFicaHub.git
-```
-
-Si se clona únicamente la rama principal (`master`), no se obtendrá la versión completa del proyecto correspondiente al avance entregado.
-
----
-
 # Descripción del proyecto
 
 SalasFICA Hub busca facilitar la orientación de estudiantes nuevos, visitantes y miembros de la comunidad universitaria dentro del campus UFRO.
@@ -160,11 +144,21 @@ java -version
 
 # Ejecución del proyecto
 
-## Paso 1: Clonar la rama correcta
+## Paso 1: Clonar el repositorio
+
+### ⚠️ IMPORTANTE
+
+La versión funcional correspondiente al **Avance 02** se encuentra en la rama:
+
+# `avance2-integracion`
+
+Para obtener correctamente el código del proyecto debe clonarse directamente dicha rama:
 
 ```bash
 git clone -b avance2-integracion https://github.com/jmanquel02-ai/SalasFicaHub.git
 ```
+
+Si se clona únicamente la rama principal (`master`), no se obtendrá la versión completa del proyecto correspondiente al avance entregado.
 
 ---
 
@@ -227,9 +221,7 @@ Run 'Main.main()'
 
 ## Próximas mejoras
 
-* Mayor cantidad de edificios y salas.
 * Mejoras en las instrucciones de navegación.
-* Optimización de rutas.
 * Mejor experiencia visual para el usuario.
 
 ---
