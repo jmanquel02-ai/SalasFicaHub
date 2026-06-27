@@ -118,6 +118,24 @@ public class RepositorioDatos {
     /** @return todas las salas */
     public Collection<Sala> getSalas()               { return salas.values(); }
 
+    /**
+     * Retorna la lista de salas que pertenecen a un edificio específico,
+     * ordenadas por código alfabéticamente.
+     *
+     * @param idEdificio id del edificio (ej: "D", "R1", "RA")
+     * @return lista de salas del edificio, o lista vacía si no hay
+     */
+    public List<Sala> getSalasPorEdificio(String idEdificio) {
+        List<Sala> resultado = new ArrayList<>();
+        for (Sala s : salas.values()) {
+            if (s.getEdificioId().equalsIgnoreCase(idEdificio)) {
+                resultado.add(s);
+            }
+        }
+        resultado.sort((a, b) -> a.getCodigo().compareTo(b.getCodigo()));
+        return resultado;
+    }
+
     /** @return todos los edificios */
     public Collection<Edificio> getEdificios()       { return edificios.values(); }
 

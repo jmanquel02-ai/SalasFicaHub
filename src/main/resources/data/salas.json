@@ -1,26 +1,466 @@
 [
-  {"codigo":"R101", "edificioId":"R",  "piso":1, "capacidad":40, "descripcion":"Sala de clases", "nodoId":"N009"},
-  {"codigo":"R102", "edificioId":"R",  "piso":1, "capacidad":40, "descripcion":"Sala de clases", "nodoId":"N009"},
-  {"codigo":"R103", "edificioId":"R",  "piso":1, "capacidad":40, "descripcion":"Sala de clases", "nodoId":"N009"},
-  {"codigo":"R104", "edificioId":"R",  "piso":1, "capacidad":40, "descripcion":"Sala de clases", "nodoId":"N009"},
-  {"codigo":"R105", "edificioId":"R",  "piso":1, "capacidad":40, "descripcion":"Sala de clases", "nodoId":"N009"},
-  {"codigo":"R106", "edificioId":"R",  "piso":1, "capacidad":40, "descripcion":"Sala de clases", "nodoId":"N009"},
-  {"codigo":"R201", "edificioId":"R",  "piso":2, "capacidad":40, "descripcion":"Sala de clases", "nodoId":"N009"},
-  {"codigo":"R202", "edificioId":"R",  "piso":2, "capacidad":40, "descripcion":"Sala de clases", "nodoId":"N009"},
-  {"codigo":"R1101","edificioId":"R1", "piso":1, "capacidad":40, "descripcion":"Sala de clases", "nodoId":"N007"},
-  {"codigo":"R1102","edificioId":"R1", "piso":1, "capacidad":40, "descripcion":"Sala de clases", "nodoId":"N007"},
-  {"codigo":"R1103","edificioId":"R1", "piso":1, "capacidad":40, "descripcion":"Sala de clases", "nodoId":"N007"},
-  {"codigo":"R1201","edificioId":"R1", "piso":2, "capacidad":40, "descripcion":"Sala de clases", "nodoId":"N007"},
-  {"codigo":"R2101","edificioId":"R2", "piso":1, "capacidad":40, "descripcion":"Sala de clases", "nodoId":"N008"},
-  {"codigo":"R2102","edificioId":"R2", "piso":1, "capacidad":40, "descripcion":"Sala de clases", "nodoId":"N008"},
-  {"codigo":"R2201","edificioId":"R2", "piso":2, "capacidad":40, "descripcion":"Sala de clases", "nodoId":"N008"},
-  {"codigo":"RA101","edificioId":"RA", "piso":1, "capacidad":40, "descripcion":"Sala de clases", "nodoId":"N006"},
-  {"codigo":"RA102","edificioId":"RA", "piso":1, "capacidad":40, "descripcion":"Sala de clases", "nodoId":"N006"},
-  {"codigo":"RA201","edificioId":"RA", "piso":2, "capacidad":40, "descripcion":"Sala de clases", "nodoId":"N006"},
-  {"codigo":"D101", "edificioId":"D",  "piso":1, "capacidad":40, "descripcion":"Sala de clases", "nodoId":"N010"},
-  {"codigo":"D102", "edificioId":"D",  "piso":1, "capacidad":40, "descripcion":"Sala de clases", "nodoId":"N010"},
-  {"codigo":"D201", "edificioId":"D",  "piso":2, "capacidad":40, "descripcion":"Sala de clases", "nodoId":"N010"},
-  {"codigo":"E101", "edificioId":"E",  "piso":1, "capacidad":40, "descripcion":"Sala de clases", "nodoId":"N011"},
-  {"codigo":"E102", "edificioId":"E",  "piso":1, "capacidad":40, "descripcion":"Sala de clases", "nodoId":"N011"},
-  {"codigo":"E201", "edificioId":"E",  "piso":2, "capacidad":40, "descripcion":"Sala de clases", "nodoId":"N011"}
+  {
+    "codigo": "R101",
+    "edificioId": "R",
+    "piso": 1,
+    "capacidad": 40,
+    "descripcion": "Sala de clases",
+    "nodoId": "N009"
+  },
+  {
+    "codigo": "R102",
+    "edificioId": "R",
+    "piso": 1,
+    "capacidad": 40,
+    "descripcion": "Sala de clases",
+    "nodoId": "N009"
+  },
+  {
+    "codigo": "R103",
+    "edificioId": "R",
+    "piso": 1,
+    "capacidad": 40,
+    "descripcion": "Sala de clases",
+    "nodoId": "N009"
+  },
+  {
+    "codigo": "R104",
+    "edificioId": "R",
+    "piso": 1,
+    "capacidad": 40,
+    "descripcion": "Sala de clases",
+    "nodoId": "N009"
+  },
+  {
+    "codigo": "R105",
+    "edificioId": "R",
+    "piso": 1,
+    "capacidad": 40,
+    "descripcion": "Sala de clases",
+    "nodoId": "N009"
+  },
+  {
+    "codigo": "R106",
+    "edificioId": "R",
+    "piso": 1,
+    "capacidad": 40,
+    "descripcion": "Sala de clases",
+    "nodoId": "N009"
+  },
+  {
+    "codigo": "R1-101",
+    "edificioId": "R1",
+    "piso": 1,
+    "capacidad": 40,
+    "descripcion": "Sala de clases",
+    "nodoId": "N007"
+  },
+  {
+    "codigo": "R1-102",
+    "edificioId": "R1",
+    "piso": 1,
+    "capacidad": 40,
+    "descripcion": "Sala de clases",
+    "nodoId": "N007"
+  },
+  {
+    "codigo": "R1-201",
+    "edificioId": "R1",
+    "piso": 2,
+    "capacidad": 40,
+    "descripcion": "Sala de clases",
+    "nodoId": "N007"
+  },
+  {
+    "codigo": "R1-202",
+    "edificioId": "R1",
+    "piso": 2,
+    "capacidad": 40,
+    "descripcion": "Sala de clases",
+    "nodoId": "N007"
+  },
+  {
+    "codigo": "R1-203",
+    "edificioId": "R1",
+    "piso": 2,
+    "capacidad": 40,
+    "descripcion": "Sala de clases",
+    "nodoId": "N007"
+  },
+  {
+    "codigo": "R2-101",
+    "edificioId": "R2",
+    "piso": 1,
+    "capacidad": 40,
+    "descripcion": "Sala de clases",
+    "nodoId": "N008"
+  },
+  {
+    "codigo": "R2-102",
+    "edificioId": "R2",
+    "piso": 1,
+    "capacidad": 40,
+    "descripcion": "Sala de clases",
+    "nodoId": "N008"
+  },
+  {
+    "codigo": "R2-201",
+    "edificioId": "R2",
+    "piso": 2,
+    "capacidad": 40,
+    "descripcion": "Sala de clases",
+    "nodoId": "N008"
+  },
+  {
+    "codigo": "R2-202",
+    "edificioId": "R2",
+    "piso": 2,
+    "capacidad": 40,
+    "descripcion": "Sala de clases",
+    "nodoId": "N008"
+  },
+  {
+    "codigo": "R2-203",
+    "edificioId": "R2",
+    "piso": 2,
+    "capacidad": 40,
+    "descripcion": "Sala de clases",
+    "nodoId": "N008"
+  },
+  {
+    "codigo": "D100",
+    "edificioId": "D",
+    "piso": 1,
+    "capacidad": 40,
+    "descripcion": "Sala de clases",
+    "nodoId": "N010"
+  },
+  {
+    "codigo": "D101",
+    "edificioId": "D",
+    "piso": 1,
+    "capacidad": 40,
+    "descripcion": "Sala de clases",
+    "nodoId": "N010"
+  },
+  {
+    "codigo": "D102",
+    "edificioId": "D",
+    "piso": 1,
+    "capacidad": 40,
+    "descripcion": "Sala de clases",
+    "nodoId": "N010"
+  },
+  {
+    "codigo": "D103",
+    "edificioId": "D",
+    "piso": 1,
+    "capacidad": 40,
+    "descripcion": "Sala de clases",
+    "nodoId": "N010"
+  },
+  {
+    "codigo": "D104",
+    "edificioId": "D",
+    "piso": 1,
+    "capacidad": 40,
+    "descripcion": "Sala de clases",
+    "nodoId": "N010"
+  },
+  {
+    "codigo": "D105",
+    "edificioId": "D",
+    "piso": 1,
+    "capacidad": 40,
+    "descripcion": "Sala de clases",
+    "nodoId": "N010"
+  },
+  {
+    "codigo": "D106",
+    "edificioId": "D",
+    "piso": 1,
+    "capacidad": 40,
+    "descripcion": "Sala de clases",
+    "nodoId": "N010"
+  },
+  {
+    "codigo": "D107",
+    "edificioId": "D",
+    "piso": 1,
+    "capacidad": 40,
+    "descripcion": "Sala de clases",
+    "nodoId": "N010"
+  },
+  {
+    "codigo": "D108",
+    "edificioId": "D",
+    "piso": 1,
+    "capacidad": 40,
+    "descripcion": "Sala de clases",
+    "nodoId": "N010"
+  },
+  {
+    "codigo": "D109",
+    "edificioId": "D",
+    "piso": 1,
+    "capacidad": 40,
+    "descripcion": "Sala de clases",
+    "nodoId": "N010"
+  },
+  {
+    "codigo": "D110",
+    "edificioId": "D",
+    "piso": 1,
+    "capacidad": 40,
+    "descripcion": "Sala de clases",
+    "nodoId": "N010"
+  },
+  {
+    "codigo": "D111",
+    "edificioId": "D",
+    "piso": 1,
+    "capacidad": 40,
+    "descripcion": "Sala de clases",
+    "nodoId": "N010"
+  },
+  {
+    "codigo": "D112",
+    "edificioId": "D",
+    "piso": 1,
+    "capacidad": 40,
+    "descripcion": "Sala de clases",
+    "nodoId": "N010"
+  },
+  {
+    "codigo": "D113",
+    "edificioId": "D",
+    "piso": 1,
+    "capacidad": 40,
+    "descripcion": "Sala de clases",
+    "nodoId": "N010"
+  },
+  {
+    "codigo": "D201",
+    "edificioId": "D",
+    "piso": 2,
+    "capacidad": 40,
+    "descripcion": "Sala de clases",
+    "nodoId": "N010"
+  },
+  {
+    "codigo": "D202",
+    "edificioId": "D",
+    "piso": 2,
+    "capacidad": 40,
+    "descripcion": "Sala de clases",
+    "nodoId": "N010"
+  },
+  {
+    "codigo": "D203",
+    "edificioId": "D",
+    "piso": 2,
+    "capacidad": 40,
+    "descripcion": "Sala de clases",
+    "nodoId": "N010"
+  },
+  {
+    "codigo": "D204",
+    "edificioId": "D",
+    "piso": 2,
+    "capacidad": 40,
+    "descripcion": "Sala de clases",
+    "nodoId": "N010"
+  },
+  {
+    "codigo": "D205",
+    "edificioId": "D",
+    "piso": 2,
+    "capacidad": 40,
+    "descripcion": "Sala de clases",
+    "nodoId": "N010"
+  },
+  {
+    "codigo": "D206",
+    "edificioId": "D",
+    "piso": 2,
+    "capacidad": 40,
+    "descripcion": "Sala de clases",
+    "nodoId": "N010"
+  },
+  {
+    "codigo": "D207",
+    "edificioId": "D",
+    "piso": 2,
+    "capacidad": 40,
+    "descripcion": "Sala de clases",
+    "nodoId": "N010"
+  },
+  {
+    "codigo": "D208",
+    "edificioId": "D",
+    "piso": 2,
+    "capacidad": 40,
+    "descripcion": "Sala de clases",
+    "nodoId": "N010"
+  },
+  {
+    "codigo": "D209",
+    "edificioId": "D",
+    "piso": 2,
+    "capacidad": 40,
+    "descripcion": "Sala de clases",
+    "nodoId": "N010"
+  },
+  {
+    "codigo": "D210",
+    "edificioId": "D",
+    "piso": 2,
+    "capacidad": 40,
+    "descripcion": "Sala de clases",
+    "nodoId": "N010"
+  },
+  {
+    "codigo": "D211",
+    "edificioId": "D",
+    "piso": 2,
+    "capacidad": 40,
+    "descripcion": "Sala de clases",
+    "nodoId": "N010"
+  },
+  {
+    "codigo": "E201",
+    "edificioId": "E",
+    "piso": 2,
+    "capacidad": 40,
+    "descripcion": "Sala de clases",
+    "nodoId": "N011"
+  },
+  {
+    "codigo": "E202",
+    "edificioId": "E",
+    "piso": 2,
+    "capacidad": 40,
+    "descripcion": "Sala de clases",
+    "nodoId": "N011"
+  },
+  {
+    "codigo": "E203",
+    "edificioId": "E",
+    "piso": 2,
+    "capacidad": 40,
+    "descripcion": "Sala de clases",
+    "nodoId": "N011"
+  },
+  {
+    "codigo": "E204",
+    "edificioId": "E",
+    "piso": 2,
+    "capacidad": 40,
+    "descripcion": "Sala de clases",
+    "nodoId": "N011"
+  },
+  {
+    "codigo": "E205",
+    "edificioId": "E",
+    "piso": 2,
+    "capacidad": 40,
+    "descripcion": "Sala de clases",
+    "nodoId": "N011"
+  },
+  {
+    "codigo": "E206",
+    "edificioId": "E",
+    "piso": 2,
+    "capacidad": 40,
+    "descripcion": "Sala de clases",
+    "nodoId": "N011"
+  },
+  {
+    "codigo": "E207",
+    "edificioId": "E",
+    "piso": 2,
+    "capacidad": 40,
+    "descripcion": "Sala de clases",
+    "nodoId": "N011"
+  },
+  {
+    "codigo": "E208",
+    "edificioId": "E",
+    "piso": 2,
+    "capacidad": 40,
+    "descripcion": "Sala de clases",
+    "nodoId": "N011"
+  },
+  {
+    "codigo": "RA1001",
+    "edificioId": "RA",
+    "piso": 1,
+    "capacidad": 40,
+    "descripcion": "Sala de clases",
+    "nodoId": "N006"
+  },
+  {
+    "codigo": "RA1002",
+    "edificioId": "RA",
+    "piso": 1,
+    "capacidad": 40,
+    "descripcion": "Sala de clases",
+    "nodoId": "N006"
+  },
+  {
+    "codigo": "RA1003",
+    "edificioId": "RA",
+    "piso": 1,
+    "capacidad": 40,
+    "descripcion": "Sala de clases",
+    "nodoId": "N006"
+  },
+  {
+    "codigo": "RA1004",
+    "edificioId": "RA",
+    "piso": 1,
+    "capacidad": 40,
+    "descripcion": "Sala de clases",
+    "nodoId": "N006"
+  },
+  {
+    "codigo": "RA2001",
+    "edificioId": "RA",
+    "piso": 2,
+    "capacidad": 40,
+    "descripcion": "Sala de clases",
+    "nodoId": "N006"
+  },
+  {
+    "codigo": "RA2002",
+    "edificioId": "RA",
+    "piso": 2,
+    "capacidad": 40,
+    "descripcion": "Sala de clases",
+    "nodoId": "N006"
+  },
+  {
+    "codigo": "RA2003",
+    "edificioId": "RA",
+    "piso": 2,
+    "capacidad": 40,
+    "descripcion": "Sala de clases",
+    "nodoId": "N006"
+  },
+  {
+    "codigo": "RA2004",
+    "edificioId": "RA",
+    "piso": 2,
+    "capacidad": 40,
+    "descripcion": "Sala de clases",
+    "nodoId": "N006"
+  },
+  {
+    "codigo": "RA2005",
+    "edificioId": "RA",
+    "piso": 2,
+    "capacidad": 40,
+    "descripcion": "Sala de clases",
+    "nodoId": "N006"
+  }
 ]
