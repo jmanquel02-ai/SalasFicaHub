@@ -7,21 +7,13 @@
     <option name="selectedModelId" value="auto" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="07142390-7d0f-4e97-8ebd-c5a137e54949" name="Changes" comment="README inicial del proyecto SalasFicaHub Avance 2">
+    <list default="true" id="07142390-7d0f-4e97-8ebd-c5a137e54949" name="Changes" comment="SalasFicaHub">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/datos/GrafoLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datos/GrafoLoader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/launcher/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/launcher/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/modelo/Edificio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modelo/Edificio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/modelo/Nodo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modelo/Nodo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/modelo/PuntoReferencia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modelo/PuntoReferencia.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/modelo/Ruta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modelo/Ruta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/modelo/Sala.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modelo/Sala.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/modelo/Ubicacion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modelo/Ubicacion.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/data/edificios.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/edificios.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/data/nodos.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/nodos.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/data/puntos.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/puntos.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/salas.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/salas.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,7 +169,15 @@
       <option name="project" value="LOCAL" />
       <updated>1779748559970</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="SalasFicaHub">
+      <option name="closed" value="true" />
+      <created>1783351394124</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1783351394124</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -185,7 +185,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="README inicial del proyecto SalasFicaHub Avance 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="README inicial del proyecto SalasFicaHub Avance 2" />
+    <MESSAGE value="SalasFicaHub" />
+    <option name="LAST_COMMIT_MESSAGE" value="SalasFicaHub" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -5,7 +5,7 @@
     "descripcion": "Acceso principal del campus por Avenida Francisco Salazar",
     "latitud": -38.749362,
     "longitud": -72.614428,
-    "nodoId": "N001"
+    "nodoId": "1258764150"
   },
   {
     "id": "P2",
@@ -13,7 +13,7 @@
     "descripcion": "Acceso por calle Montevideo",
     "latitud": -38.749472,
     "longitud": -72.616681,
-    "nodoId": "N030"
+    "nodoId": "3317609392"
   },
   {
     "id": "P3",
@@ -21,22 +21,22 @@
     "descripcion": "Acceso por calle Uruguay sector sur",
     "latitud": -38.747987,
     "longitud": -72.617338,
-    "nodoId": "N017"
+    "nodoId": "1055383551"
   },
   {
     "id": "P4",
     "nombre": "Entrada Uruguay norte",
     "descripcion": "Acceso por calle Uruguay sector norte",
     "latitud": -38.747012,
-    "longitud": -72.616450,
-    "nodoId": "N028"
+    "longitud": -72.61645,
+    "nodoId": "3430078945"
   },
   {
     "id": "P5",
     "nombre": "Entrada Candelaria",
-    "descripcion": "Acceso por sector Candelaria hacia el Decanato FICA (nodo aproximado, revisar)",
+    "descripcion": "Acceso por sector Candelaria hacia el Decanato FICA",
     "latitud": -38.746685,
     "longitud": -72.616212,
-    "nodoId": "N029"
+    "nodoId": "7026553246"
   }
 ]

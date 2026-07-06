@@ -5,7 +5,7 @@
     "piso": 1,
     "capacidad": 40,
     "descripcion": "Sala de clases",
-    "nodoId": "N009"
+    "nodoId": "7026553252"
   },
   {
     "codigo": "R102",
@@ -13,7 +13,7 @@
     "piso": 1,
     "capacidad": 40,
     "descripcion": "Sala de clases",
-    "nodoId": "N009"
+    "nodoId": "7026553252"
   },
   {
     "codigo": "R103",
@@ -21,7 +21,7 @@
     "piso": 1,
     "capacidad": 40,
     "descripcion": "Sala de clases",
-    "nodoId": "N009"
+    "nodoId": "7026553252"
   },
   {
     "codigo": "R104",
@@ -29,7 +29,7 @@
     "piso": 1,
     "capacidad": 40,
     "descripcion": "Sala de clases",
-    "nodoId": "N009"
+    "nodoId": "7026553252"
   },
   {
     "codigo": "R105",
@@ -37,7 +37,7 @@
     "piso": 1,
     "capacidad": 40,
     "descripcion": "Sala de clases",
-    "nodoId": "N009"
+    "nodoId": "7026553252"
   },
   {
     "codigo": "R106",
@@ -45,7 +45,7 @@
     "piso": 1,
     "capacidad": 40,
     "descripcion": "Sala de clases",
-    "nodoId": "N009"
+    "nodoId": "7026553252"
   },
   {
     "codigo": "R1-101",
@@ -53,7 +53,7 @@
     "piso": 1,
     "capacidad": 40,
     "descripcion": "Sala de clases",
-    "nodoId": "N007"
+    "nodoId": "7026553248"
   },
   {
     "codigo": "R1-102",
@@ -61,7 +61,7 @@
     "piso": 1,
     "capacidad": 40,
     "descripcion": "Sala de clases",
-    "nodoId": "N007"
+    "nodoId": "7026553248"
   },
   {
     "codigo": "R1-201",
@@ -69,7 +69,7 @@
     "piso": 2,
     "capacidad": 40,
     "descripcion": "Sala de clases",
-    "nodoId": "N007"
+    "nodoId": "7026553248"
   },
   {
     "codigo": "R1-202",
@@ -77,7 +77,7 @@
     "piso": 2,
     "capacidad": 40,
     "descripcion": "Sala de clases",
-    "nodoId": "N007"
+    "nodoId": "7026553248"
   },
   {
     "codigo": "R1-203",
@@ -85,7 +85,7 @@
     "piso": 2,
     "capacidad": 40,
     "descripcion": "Sala de clases",
-    "nodoId": "N007"
+    "nodoId": "7026553248"
   },
   {
     "codigo": "R2-101",
@@ -93,7 +93,7 @@
     "piso": 1,
     "capacidad": 40,
     "descripcion": "Sala de clases",
-    "nodoId": "N008"
+    "nodoId": "7026553250"
   },
   {
     "codigo": "R2-102",
@@ -101,7 +101,7 @@
     "piso": 1,
     "capacidad": 40,
     "descripcion": "Sala de clases",
-    "nodoId": "N008"
+    "nodoId": "7026553250"
   },
   {
     "codigo": "R2-201",
@@ -109,7 +109,7 @@
     "piso": 2,
     "capacidad": 40,
     "descripcion": "Sala de clases",
-    "nodoId": "N008"
+    "nodoId": "7026553250"
   },
   {
     "codigo": "R2-202",
@@ -117,7 +117,7 @@
     "piso": 2,
     "capacidad": 40,
     "descripcion": "Sala de clases",
-    "nodoId": "N008"
+    "nodoId": "7026553250"
   },
   {
     "codigo": "R2-203",
@@ -125,7 +125,7 @@
     "piso": 2,
     "capacidad": 40,
     "descripcion": "Sala de clases",
-    "nodoId": "N008"
+    "nodoId": "7026553250"
   },
   {
     "codigo": "D100",
@@ -133,7 +133,7 @@
     "piso": 1,
     "capacidad": 40,
     "descripcion": "Sala de clases",
-    "nodoId": "N010"
+    "nodoId": "1046787443"
   },
   {
     "codigo": "D101",
@@ -141,7 +141,7 @@
     "piso": 1,
     "capacidad": 40,
     "descripcion": "Sala de clases",
-    "nodoId": "N010"
+    "nodoId": "1046787443"
   },
   {
     "codigo": "D102",
@@ -149,7 +149,7 @@
     "piso": 1,
     "capacidad": 40,
     "descripcion": "Sala de clases",
-    "nodoId": "N010"
+    "nodoId": "1046787443"
   },
   {
     "codigo": "D103",
@@ -157,7 +157,7 @@
     "piso": 1,
     "capacidad": 40,
     "descripcion": "Sala de clases",
-    "nodoId": "N010"
+    "nodoId": "1046787443"
   },
   {
     "codigo": "D104",
@@ -165,7 +165,7 @@
     "piso": 1,
     "capacidad": 40,
     "descripcion": "Sala de clases",
-    "nodoId": "N010"
+    "nodoId": "1046787443"
   },
   {
     "codigo": "D105",
@@ -173,7 +173,7 @@
     "piso": 1,
     "capacidad": 40,
     "descripcion": "Sala de clases",
-    "nodoId": "N010"
+    "nodoId": "1046787443"
   },
   {
     "codigo": "D106",
@@ -181,7 +181,7 @@
     "piso": 1,
     "capacidad": 40,
     "descripcion": "Sala de clases",
-    "nodoId": "N010"
+    "nodoId": "1046787443"
   },
   {
     "codigo": "D107",
@@ -189,7 +189,7 @@
     "piso": 1,
     "capacidad": 40,
     "descripcion": "Sala de clases",
-    "nodoId": "N010"
+    "nodoId": "1046787443"
   },
   {
     "codigo": "D108",
@@ -197,7 +197,7 @@
     "piso": 1,
     "capacidad": 40,
     "descripcion": "Sala de clases",
-    "nodoId": "N010"
+    "nodoId": "1046787443"
   },
   {
     "codigo": "D109",
@@ -205,7 +205,7 @@
     "piso": 1,
     "capacidad": 40,
     "descripcion": "Sala de clases",
-    "nodoId": "N010"
+    "nodoId": "1046787443"
   },
   {
     "codigo": "D110",
@@ -213,7 +213,7 @@
     "piso": 1,
     "capacidad": 40,
     "descripcion": "Sala de clases",
-    "nodoId": "N010"
+    "nodoId": "1046787443"
   },
   {
     "codigo": "D111",
@@ -221,7 +221,7 @@
     "piso": 1,
     "capacidad": 40,
     "descripcion": "Sala de clases",
-    "nodoId": "N010"
+    "nodoId": "1046787443"
   },
   {
     "codigo": "D112",
@@ -229,7 +229,7 @@
     "piso": 1,
     "capacidad": 40,
     "descripcion": "Sala de clases",
-    "nodoId": "N010"
+    "nodoId": "1046787443"
   },
   {
     "codigo": "D113",
@@ -237,7 +237,7 @@
     "piso": 1,
     "capacidad": 40,
     "descripcion": "Sala de clases",
-    "nodoId": "N010"
+    "nodoId": "1046787443"
   },
   {
     "codigo": "D201",
@@ -245,7 +245,7 @@
     "piso": 2,
     "capacidad": 40,
     "descripcion": "Sala de clases",
-    "nodoId": "N010"
+    "nodoId": "1046787443"
   },
   {
     "codigo": "D202",
@@ -253,7 +253,7 @@
     "piso": 2,
     "capacidad": 40,
     "descripcion": "Sala de clases",
-    "nodoId": "N010"
+    "nodoId": "1046787443"
   },
   {
     "codigo": "D203",
@@ -261,7 +261,7 @@
     "piso": 2,
     "capacidad": 40,
     "descripcion": "Sala de clases",
-    "nodoId": "N010"
+    "nodoId": "1046787443"
   },
   {
     "codigo": "D204",
@@ -269,7 +269,7 @@
     "piso": 2,
     "capacidad": 40,
     "descripcion": "Sala de clases",
-    "nodoId": "N010"
+    "nodoId": "1046787443"
   },
   {
     "codigo": "D205",
@@ -277,7 +277,7 @@
     "piso": 2,
     "capacidad": 40,
     "descripcion": "Sala de clases",
-    "nodoId": "N010"
+    "nodoId": "1046787443"
   },
   {
     "codigo": "D206",
@@ -285,7 +285,7 @@
     "piso": 2,
     "capacidad": 40,
     "descripcion": "Sala de clases",
-    "nodoId": "N010"
+    "nodoId": "1046787443"
   },
   {
     "codigo": "D207",
@@ -293,7 +293,7 @@
     "piso": 2,
     "capacidad": 40,
     "descripcion": "Sala de clases",
-    "nodoId": "N010"
+    "nodoId": "1046787443"
   },
   {
     "codigo": "D208",
@@ -301,7 +301,7 @@
     "piso": 2,
     "capacidad": 40,
     "descripcion": "Sala de clases",
-    "nodoId": "N010"
+    "nodoId": "1046787443"
   },
   {
     "codigo": "D209",
@@ -309,7 +309,7 @@
     "piso": 2,
     "capacidad": 40,
     "descripcion": "Sala de clases",
-    "nodoId": "N010"
+    "nodoId": "1046787443"
   },
   {
     "codigo": "D210",
@@ -317,7 +317,7 @@
     "piso": 2,
     "capacidad": 40,
     "descripcion": "Sala de clases",
-    "nodoId": "N010"
+    "nodoId": "1046787443"
   },
   {
     "codigo": "D211",
@@ -325,7 +325,7 @@
     "piso": 2,
     "capacidad": 40,
     "descripcion": "Sala de clases",
-    "nodoId": "N010"
+    "nodoId": "1046787443"
   },
   {
     "codigo": "E201",
@@ -333,7 +333,7 @@
     "piso": 2,
     "capacidad": 40,
     "descripcion": "Sala de clases",
-    "nodoId": "N011"
+    "nodoId": "1046787285"
   },
   {
     "codigo": "E202",
@@ -341,7 +341,7 @@
     "piso": 2,
     "capacidad": 40,
     "descripcion": "Sala de clases",
-    "nodoId": "N011"
+    "nodoId": "1046787285"
   },
   {
     "codigo": "E203",
@@ -349,7 +349,7 @@
     "piso": 2,
     "capacidad": 40,
     "descripcion": "Sala de clases",
-    "nodoId": "N011"
+    "nodoId": "1046787285"
   },
   {
     "codigo": "E204",
@@ -357,7 +357,7 @@
     "piso": 2,
     "capacidad": 40,
     "descripcion": "Sala de clases",
-    "nodoId": "N011"
+    "nodoId": "1046787285"
   },
   {
     "codigo": "E205",
@@ -365,7 +365,7 @@
     "piso": 2,
     "capacidad": 40,
     "descripcion": "Sala de clases",
-    "nodoId": "N011"
+    "nodoId": "1046787285"
   },
   {
     "codigo": "E206",
@@ -373,7 +373,7 @@
     "piso": 2,
     "capacidad": 40,
     "descripcion": "Sala de clases",
-    "nodoId": "N011"
+    "nodoId": "1046787285"
   },
   {
     "codigo": "E207",
@@ -381,7 +381,7 @@
     "piso": 2,
     "capacidad": 40,
     "descripcion": "Sala de clases",
-    "nodoId": "N011"
+    "nodoId": "1046787285"
   },
   {
     "codigo": "E208",
@@ -389,7 +389,7 @@
     "piso": 2,
     "capacidad": 40,
     "descripcion": "Sala de clases",
-    "nodoId": "N011"
+    "nodoId": "1046787285"
   },
   {
     "codigo": "RA1001",
@@ -397,7 +397,7 @@
     "piso": 1,
     "capacidad": 40,
     "descripcion": "Sala de clases",
-    "nodoId": "N006"
+    "nodoId": "7026553235"
   },
   {
     "codigo": "RA1002",
@@ -405,7 +405,7 @@
     "piso": 1,
     "capacidad": 40,
     "descripcion": "Sala de clases",
-    "nodoId": "N006"
+    "nodoId": "7026553235"
   },
   {
     "codigo": "RA1003",
@@ -413,7 +413,7 @@
     "piso": 1,
     "capacidad": 40,
     "descripcion": "Sala de clases",
-    "nodoId": "N006"
+    "nodoId": "7026553235"
   },
   {
     "codigo": "RA1004",
@@ -421,7 +421,7 @@
     "piso": 1,
     "capacidad": 40,
     "descripcion": "Sala de clases",
-    "nodoId": "N006"
+    "nodoId": "7026553235"
   },
   {
     "codigo": "RA2001",
@@ -429,7 +429,7 @@
     "piso": 2,
     "capacidad": 40,
     "descripcion": "Sala de clases",
-    "nodoId": "N006"
+    "nodoId": "7026553235"
   },
   {
     "codigo": "RA2002",
@@ -437,7 +437,7 @@
     "piso": 2,
     "capacidad": 40,
     "descripcion": "Sala de clases",
-    "nodoId": "N006"
+    "nodoId": "7026553235"
   },
   {
     "codigo": "RA2003",
@@ -445,7 +445,7 @@
     "piso": 2,
     "capacidad": 40,
     "descripcion": "Sala de clases",
-    "nodoId": "N006"
+    "nodoId": "7026553235"
   },
   {
     "codigo": "RA2004",
@@ -453,7 +453,7 @@
     "piso": 2,
     "capacidad": 40,
     "descripcion": "Sala de clases",
-    "nodoId": "N006"
+    "nodoId": "7026553235"
   },
   {
     "codigo": "RA2005",
@@ -461,6 +461,6 @@
     "piso": 2,
     "capacidad": 40,
     "descripcion": "Sala de clases",
-    "nodoId": "N006"
+    "nodoId": "7026553235"
   }
 ]

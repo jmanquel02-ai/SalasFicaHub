@@ -4,47 +4,47 @@
     "nombre": "Pabellón de Aulas Gilberto Montero",
     "numMapa": 21,
     "descripcion": "Edificio principal de aulas FICA",
-    "latitud": -38.747419,
-    "longitud": -72.61575
+    "latitud": -38.74739475714286,
+    "longitud": -72.61575164285715
   },
   {
     "id": "R1",
     "nombre": "Edificio de Aulas R1",
     "numMapa": 22,
     "descripcion": "Edificio de aulas R1 FICA",
-    "latitud": -38.747151,
-    "longitud": -72.615962
+    "latitud": -38.74710916666667,
+    "longitud": -72.61598173333334
   },
   {
     "id": "R2",
     "nombre": "Edificio de Aulas R2",
     "numMapa": 23,
     "descripcion": "Edificio de aulas R2 FICA",
-    "latitud": -38.74736,
-    "longitud": -72.616056
+    "latitud": -38.7473277,
+    "longitud": -72.61605715
   },
   {
     "id": "RA",
     "nombre": "Pabellón de Aulas Teodoro Wickel",
     "numMapa": 26,
     "descripcion": "Pabellón RA FICA",
-    "latitud": -38.747216,
-    "longitud": -72.616338
+    "latitud": -38.747134100000004,
+    "longitud": -72.61636533333333
   },
   {
     "id": "D",
     "nombre": "Edificio de Aulas D",
     "numMapa": 30,
     "descripcion": "Edificio de aulas D FICA",
-    "latitud": -38.748245,
-    "longitud": -72.615654
+    "latitud": -38.748182032,
+    "longitud": -72.615720732
   },
   {
     "id": "E",
     "nombre": "Edificio de Aulas E",
     "numMapa": 31,
     "descripcion": "Edificio de aulas E FICA",
-    "latitud": -38.748295,
-    "longitud": -72.616316
+    "latitud": -38.748195173333336,
+    "longitud": -72.61631828666667
   }
 ]
