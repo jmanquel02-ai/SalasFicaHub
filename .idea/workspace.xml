@@ -1,7 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BackgroundAgentGlobalSettings">
+    <option name="selectedModelId" value="auto" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="17a0ac8e-a46b-4c9d-b5b5-353a3227df19" name="Changes" comment="" />
+    <list default="true" id="07142390-7d0f-4e97-8ebd-c5a137e54949" name="Changes" comment="README inicial del proyecto SalasFicaHub Avance 2">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/datos/GrafoLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datos/GrafoLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/launcher/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/launcher/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modelo/Edificio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modelo/Edificio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modelo/Nodo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modelo/Nodo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modelo/PuntoReferencia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modelo/PuntoReferencia.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modelo/Ruta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modelo/Ruta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modelo/Sala.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modelo/Sala.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modelo/Ubicacion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modelo/Ubicacion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/edificios.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/edificios.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/nodos.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/nodos.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/puntos.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/puntos.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -9,63 +30,102 @@
   </component>
   <component name="CopilotPersistence">
     <persistenceIdMap>
-      <entry key="_C:/Users/vicei/IdeaProjects/SalasFicaHub" value="3EeWUGJhK3dkWRfXIWth5Xt8zSZ" />
+      <entry key="_C:/Users/jonam/Downloads/Poo/SalasFicaHub" value="3FhcX7PHiWwAUN381x99D8J8Ta0" />
+      <entry key="_C:/Users/vicei/Desktop/SalasFicaHub-con puntos actualizados, solo foto P1_R y cierre de programa arreglado" value="3EEcUadupQjd6ydPJc8Zwyt1uen" />
     </persistenceIdMap>
   </component>
+  <component name="ExportToHTMLSettings">
+    <option name="printScope" value="1" />
+    <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/exportToHTML" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "VicenteFlores19"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;jmanquel02-ai&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/jmanquel02-ai/SalasFicaHub.git",
-    "accountId": "e002b014-4164-4bd6-8670-8babce43f6f5"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/jmanquel02-ai/SalasFicaHub.git&quot;,
+    &quot;accountId&quot;: &quot;3f5472b1-48fb-491d-b8dd-4f58317c5f4d&quot;
   }
-}]]></component>
+}</component>
   <component name="McpProjectServerCommands">
     <commands />
     <urls />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3,
-  "fromUser": false
-}]]></component>
-  <component name="ProjectId" id="3EeWUGJhK3dkWRfXIWth5Xt8zSZ" />
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3EEcUadupQjd6ydPJc8Zwyt1uen" />
+  <component name="ProjectSessionTemplates">
+    <option name="panelTemplate">
+      <template>
+        <option name="modeId" value="Agent" />
+        <option name="model">
+          <model>
+            <option name="modelType" value="builtin_family" />
+            <option name="modelValue" value="auto" />
+          </model>
+        </option>
+        <option name="targetType" value="LOCAL" />
+      </template>
+    </option>
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "master",
-    "junie.onboarding.icon.badge.shown": "true",
-    "kotlin-language-version-configured": "true",
-    "to.speed.mode.migration.done": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RepositorioDatosTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SalasFicaTest.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;copilot.chat.legacySessionMetadata.migrated&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;feature/jonathan&quot;,
+    &quot;git.auto.fetch.suggestion.counter&quot;: &quot;1&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/jonam/Downloads/Poo/SalasFicaHub&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/jonam/Downloads/Poo/SalasFicaHub/src/main/java/org/example/Main.java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
   <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="SalasFicaHub" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="SalasFicaHub" />
-      <option name="filePath" />
-      <method v="2" />
-    </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
-      <module name="SalasFicaHub" />
+      <module name="SalasFicaHub-con puntos actualizados, solo foto P1_R y cierre de programa arreglado" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -87,18 +147,11 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration default="true" type="Tox" factoryName="Tox">
-      <module name="SalasFicaHub" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="RUN_TOOL" value="" />
-      <method v="2" />
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="SalasFicaHub-con puntos actualizados, solo foto P1_R y cierre de programa arreglado" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
   </component>
   <component name="SharedIndexes">
@@ -110,13 +163,45 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="17a0ac8e-a46b-4c9d-b5b5-353a3227df19" name="Changes" comment="" />
-      <created>1780539533056</created>
+      <changelist id="07142390-7d0f-4e97-8ebd-c5a137e54949" name="Changes" comment="" />
+      <created>1779747188804</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1780539533056</updated>
+      <updated>1779747188804</updated>
     </task>
+    <task id="LOCAL-00001" summary="README inicial del proyecto SalasFicaHub Avance 2">
+      <option name="closed" value="true" />
+      <created>1779748559970</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1779748559970</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="README inicial del proyecto SalasFicaHub Avance 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="README inicial del proyecto SalasFicaHub Avance 2" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/test/SalasFicaTest.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>
@@ -127,4 +212,3 @@
     </promptFileLocations>
   </component>
 </project>
-//aaaa

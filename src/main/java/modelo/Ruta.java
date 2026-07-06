@@ -4,7 +4,12 @@ import java.util.*;
 
 /**
  * Modela el cálculo y representación del camino más corto entre dos intersecciones (nodos).
- * Implementa el algoritmo de Búsqueda en Anchura (BFS) sobre el grafo espacial del campus.
+ * Implementa el algoritmo de Dijkstra sobre el grafo espacial del campus, usando la
+ * distancia real (fórmula de Haversine) entre nodos como peso de cada arista.
+ *
+ * Nota histórica: antes se usaba BFS (menos saltos), pero al crecer el grafo con
+ * enlaces entre cruces duplicados de distintas ramas, BFS tomaba "atajos" de pocos
+ * saltos que en la realidad eran rodeos largos, generando rutas en zigzag.
  */
 public class Ruta {
 
@@ -23,38 +28,59 @@ public class Ruta {
     }
 
     /**
-     * Aplica el algoritmo Breadth-First Search (BFS) para determinar la ruta óptima.
+     * Aplica el algoritmo de Dijkstra para determinar la ruta más corta en distancia real,
+     * usando aplicarFormulaHaversine() como peso de cada arista del grafo.
      */
     private void ejecutarCalculoRuta() {
-        Queue<List<Nodo>> colaProcesamiento = new LinkedList<>();
-        Set<String> nodosVisitados = new HashSet<>();
+        Map<String, Double> distancia   = new HashMap<>();
+        Map<String, Nodo>   anterior    = new HashMap<>();
+        Set<String>         visitados   = new HashSet<>();
+        PriorityQueue<Nodo> cola = new PriorityQueue<>(
+                Comparator.comparingDouble(n -> distancia.getOrDefault(n.getId(), Double.MAX_VALUE)));
 
-        colaProcesamiento.add(Collections.singletonList(origen));
+        distancia.put(origen.getId(), 0.0);
+        cola.add(origen);
 
-        while (!colaProcesamiento.isEmpty()) {
-            List<Nodo> caminoActual = colaProcesamiento.poll();
-            Nodo nodoEvaluado = caminoActual.get(caminoActual.size() - 1);
+        while (!cola.isEmpty()) {
+            Nodo actual = cola.poll();
 
-            if (nodoEvaluado.equals(destino)) {
-                this.camino = new ArrayList<>(caminoActual);
-                procesarInstruccionesTextuales();
-                calcularDistanciaAcumulada();
-                return;
-            }
+            if (visitados.contains(actual.getId())) continue;
+            visitados.add(actual.getId());
 
-            if (nodosVisitados.contains(nodoEvaluado.getId())) {
-                continue;
-            }
-            nodosVisitados.add(nodoEvaluado.getId());
+            if (actual.equals(destino)) break;
 
-            for (Nodo vecino : nodoEvaluado.getVecinos()) {
-                if (!nodosVisitados.contains(vecino.getId())) {
-                    List<Nodo> nuevoCamino = new ArrayList<>(caminoActual);
-                    nuevoCamino.add(vecino);
-                    colaProcesamiento.add(nuevoCamino);
+            double distActual = distancia.getOrDefault(actual.getId(), Double.MAX_VALUE);
+
+            for (Nodo vecino : actual.getVecinos()) {
+                if (visitados.contains(vecino.getId())) continue;
+
+                double peso = aplicarFormulaHaversine(actual, vecino);
+                double nuevaDist = distActual + peso;
+
+                if (nuevaDist < distancia.getOrDefault(vecino.getId(), Double.MAX_VALUE)) {
+                    distancia.put(vecino.getId(), nuevaDist);
+                    anterior.put(vecino.getId(), actual);
+                    cola.add(vecino);
                 }
             }
         }
+
+        if (!distancia.containsKey(destino.getId())) {
+            return; // no hay ruta: camino queda vacío, isValida() devolverá false
+        }
+
+        // Reconstruir camino desde destino hacia origen usando el mapa "anterior"
+        LinkedList<Nodo> caminoReconstruido = new LinkedList<>();
+        Nodo cursor = destino;
+        while (cursor != null) {
+            caminoReconstruido.addFirst(cursor);
+            if (cursor.equals(origen)) break;
+            cursor = anterior.get(cursor.getId());
+        }
+
+        this.camino = new ArrayList<>(caminoReconstruido);
+        this.distanciaMetros = distancia.get(destino.getId());
+        procesarInstruccionesTextuales();
     }
 
     /**
@@ -75,13 +101,9 @@ public class Ruta {
     }
 
     /**
-     * Cuantifica la distancia métrica de la ruta iterando sobre los segmentos geográficos
-     * mediante la aplicación de la fórmula del semiverseno (Haversine).
+     * Calcula la distancia real en metros entre dos nodos adyacentes mediante
+     * la fórmula del semiverseno (Haversine). Se usa como peso de cada arista en Dijkstra.
      */
-    private void calcularDistanciaAcumulada() {
-        distanciaMetros = (camino.size() - 1) * 45;
-    }
-
     private double aplicarFormulaHaversine(Nodo nodoA, Nodo nodoB) {
         final int RADIO_TIERRA_METROS = 6371000;
         double difLatitud = Math.toRadians(nodoB.getLatitud() - nodoA.getLatitud());

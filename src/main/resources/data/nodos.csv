@@ -2,9 +2,73 @@ id,latitud,longitud,descripcion,vecinos
 N001,-38.749362,-72.614428,Entrada Francisco Salazar (P1),N002
 N002,-38.749337,-72.614635,Cruce sector sur Francisco Salazar,N001|N003
 N003,-38.749106,-72.615109,Camino interno sector sur,N002|N004
-N004,-38.748605,-72.614908,Sector Vicerrectoria camino interno,N003|N005
-N005,-38.748310,-72.614956,Entre Pabellon E y Vicerrectoria,N004|N006
-N006,-38.748086,-72.615193,Frente Pabellon D camino central,N005|N007
-N007,-38.747803,-72.615294,Sector entre R2 y D,N006|N008
-N008,-38.747649,-72.615871,Frente Pabellon R entrada,N007|N009
-N009,-38.747558,-72.615807,Puerta principal Pabellon R (Gilberto Montero),N008
+N004,-38.748605,-72.614908,Sector Vicerrectoria camino interno,N003|N005|N052
+N005,-38.748310,-72.614956,Entre Pabellon E y Vicerrectoria,N004|N010
+N006,-38.747216,-72.616338,Acceso Pabellon RA (Teodoro Wickel),N008|N007
+N007,-38.747151,-72.615962,Acceso Edificio R1,N009|N008|N006
+N008,-38.747360,-72.616056,Acceso Edificio R2,N009|N007|N006
+N009,-38.747419,-72.615750,Puerta principal Pabellon R (Gilberto Montero),N010|N008|N007
+N010,-38.748245,-72.615654,Acceso Edificio D,N011|N005|N009
+N011,-38.748295,-72.616316,Acceso Edificio E,N010|N012
+N012,-38.748326,-72.616732,Cafe Literario,N011|N013
+N013,-38.748086,-72.616625,Pasillo entre Depto de Matematicas y Fac de Odontologia,N012|N014|N015
+N014,-38.748027,-72.616383,Cajero Santander Edificio E,N013|N055
+N015,-38.747954,-72.616713,Frente a Facultad de Odontologia,N013|N016
+N016,-38.747868,-72.617059,Pasillo conector a Calle Uruguay desde Odontologia,N015|N017
+N017,-38.747987,-72.617338,Calle Uruguay acceso peatonal,N016|N018
+N018,-38.747628,-72.617014,Calle Uruguay entrada de vehiculos,N017|N019
+N019,-38.747410,-72.616877,Estacionamiento interior norte,N018
+N020,-38.749503,-72.616335,Cruce calle Montevideo sur entrada DCI,N021
+N021,-38.749005,-72.616012,Camino diagonal central area verde,N020|N022
+N022,-38.748366,-72.615615,Acceso principal Auditorio Los Avellanos,N021|N023|N073
+N023,-38.748055,-72.615951,Pasillo norte Edificio E direccion central,N022|N024|N072
+N024,-38.747530,-72.616301,Pasillo conector entre R2 y Casino Las Araucarias,N023|N025|N071
+N025,-38.747201,-72.616024,Acceso principal Casino Las Araucarias,N024|N026|N061
+N026,-38.747211,-72.616223,Pasillo oeste Casino junto a Dirección de Desarrollo Estudiantil,N025|N027
+N027,-38.747356,-72.616584,Bifurcación norte pasillo Dirección de Trayectoria Formativa,N026|N028
+N028,-38.747012,-72.616450,Acceso norte Facultad de Odontología / Estacionamiento,N027|N029
+N029,-38.746685,-72.616212,Camino norte conector a Depto de Ingeniería Química,N028
+N030,-38.749472,-72.616681,Calle Montevideo sector Morfologia y Clinica Psicologica,N031
+N031,-38.748973,-72.616147,Sendero diagonal area verde sector sur,N030|N032
+N032,-38.748837,-72.616231,Sendero diagonal area verde sector central,N031|N033
+N033,-38.748312,-72.616185,Interior Edificio E central,N032|N034|N054
+N034,-38.747810,-72.615418,Sendero este del prado entre Pabellon D y Ciencias Quimicas,N033|N035
+N035,-38.747657,-72.615327,Cruce de senderos frente a Depto de Ciencias Quimicas,N034|N036|N057
+N036,-38.747408,-72.615469,Acceso a Depto de Ciencias Quimicas y Recursos Naturales,N035|N037
+N037,-38.747312,-72.616129,Pasillo exterior entre R2 y Direccion de Trayectoria Formativa,N036|N038|N039|N058
+N038,-38.747356,-72.616035,Interior Pabellon R2,N037|N059|N069
+N039,-38.747278,-72.616365,Interior Direccion de Trayectoria Formativa,N037|N060|N070
+N040,-38.749553,-72.615220,Calle Francisco Salazar frente a acceso DCI / Ingenieria Industrial,N041
+N041,-38.749443,-72.615468,Cruce peatonal sur ingreso a calle Montevideo,N040|N042|N051
+N042,-38.748342,-72.614612,Pasillo exterior sector este de Vicerrectoria Academica,N041|N043|N053
+N043,-38.748115,-72.614652,Cruce camino interno detras de Vicerrectoria,N042|N044
+N044,-38.747312,-72.616185,Bifurcacion pasillo central exterior frente a R2,N043|N045|N068
+N045,-38.747280,-72.616365,Acceso a Direccion de Trayectoria Formativa sector pasillo,N044|N046
+N046,-38.747201,-72.616011,Acceso este a Casino Las Araucarias,N045|N047|N067
+N047,-38.747050,-72.616410,Pasillo norte entre Dirección de Desarrollo Estudiantil y R1,N046|N048|N062|N065
+N048,-38.746910,-72.616350,Cruce peatonal norte salida a estacionamiento Facultad de Odontologia,N047|N049|N063|N066
+N049,-38.746780,-72.616150,Acceso norte Edificio de Ciencias Quimicas y Recursos Naturales,N048
+N050,-38.749503,-72.615280,Calle Francisco Salazar frente a entrada Departamento de Ingenieria Industrial,N051
+N051,-38.749443,-72.615468,Cruce peatonal sur esquina calle Montevideo,N050|N052|N041
+N052,-38.748605,-72.614908,Sector Vicerrectoria Academica camino interno central,N051|N053|N004
+N053,-38.748342,-72.614612,Pasillo exterior oriental Dirección de Finanzas / Postgrado,N052|N042
+N054,-38.748312,-72.616185,Pasillo interior Edificio E sector central,N055|N033
+N055,-38.748115,-72.616052,Pasillo conector sur Edificio E hacia Dirección de Docencia,N054|N056|N014
+N056,-38.747803,-72.615294,Cruce exterior peatonal entre Pabellón D y R2,N055|N057
+N057,-38.747657,-72.615327,Pasillo exterior frente a Dirección de Trayectoria Formativa,N056|N058|N035
+N058,-38.747312,-72.616129,Bifurcación de pasillos exteriores entre R y R2,N057|N059|N060|N037
+N059,-38.747356,-72.616035,Acceso interior norte Pabellón R2,N058|N038|N069
+N060,-38.747278,-72.616365,Acceso lateral a Dirección de Trayectoria Formativa,N058|N061|N039|N070
+N061,-38.747201,-72.616024,Pasillo techado exterior acceso este a Casino Las Araucarias,N060|N062|N025
+N062,-38.747050,-72.616410,Pasillo conector norte entre R1 y Dirección de Desarrollo Estudiantil,N061|N063|N047|N065
+N063,-38.746910,-72.616350,Salida peatonal norte hacia estacionamientos de Odontología,N062|N048|N066
+N064,-38.747167,-72.616383,Pasillo central interno primer piso Edificio R1,N065
+N065,-38.747050,-72.616410,Cruce de pasillos ala norte de Dirección de Desarrollo Estudiantil,N064|N066|N047|N062
+N066,-38.746910,-72.616350,Salida peatonal hacia estacionamientos norte,N065|N067|N048|N063
+N067,-38.747201,-72.616011,Pasillo conector exterior hacia Casino Las Araucarias,N066|N068|N046
+N068,-38.747312,-72.616185,Bifurcación de senderos exteriores frente a Pabellón R2,N067|N069|N044
+N069,-38.747356,-72.616035,Acceso principal a oficinas de Pabellón R2,N068|N070|N038|N059
+N070,-38.747278,-72.616365,Pasillo conector interno Dirección de Trayectoria Formativa,N069|N071|N039|N060
+N071,-38.747530,-72.616301,Cruce exterior peatonal pasillo central sector sur de R2,N070|N072|N024
+N072,-38.748055,-72.615951,Sendero junto a áreas verdes camino a Auditorio Los Avellanos,N071|N073|N023
+N073,-38.748366,-72.615615,Acceso peatonal exterior Auditorio Los Avellanos sector norte,N072|N022
