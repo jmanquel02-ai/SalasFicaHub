@@ -1,130 +1,7 @@
 # SalasFICA Hub
 
-Sistema de orientación académica para la Facultad de Ingeniería y Ciencias de la Universidad de La Frontera (UFRO), desarrollado en Java utilizando Programación Orientada a Objetos (POO) y arquitectura Modelo–Vista–Controlador (MVC).
-
----
-
-# Descripción del proyecto
-
-SalasFICA Hub busca facilitar la orientación de estudiantes nuevos, visitantes y miembros de la comunidad universitaria dentro del campus UFRO.
-
-El sistema permite consultar salas académicas, visualizar puntos de referencia relevantes y generar rutas desde distintos puntos de acceso hacia una sala de destino.
-
-La aplicación representa el campus mediante nodos e intersecciones conectadas, permitiendo calcular recorridos utilizando algoritmos de búsqueda y mostrar instrucciones básicas de navegación al usuario.
-
----
-
-# Objetivo
-
-Desarrollar una herramienta que permita:
-
-* Consultar salas académicas de la Facultad de Ingeniería y Ciencias.
-* Seleccionar un punto de inicio dentro del campus.
-* Calcular una ruta hacia una sala destino.
-* Visualizar el recorrido en una interfaz gráfica.
-* Aplicar conceptos de Programación Orientada a Objetos y arquitectura MVC.
-
----
-
-# Funcionalidades implementadas
-
-## Gestión de ubicaciones
-
-* Registro de edificios académicos.
-* Registro de salas.
-* Registro de puntos de referencia.
-* Modelado de intersecciones y nodos de navegación.
-
-## Búsqueda y cálculo de rutas
-
-* Selección de punto de origen.
-* Búsqueda de salas por código.
-* Generación de rutas mediante Breadth First Search (BFS).
-* Cálculo estimado de distancia recorrida.
-
-## Interfaz gráfica
-
-* Ventana de bienvenida.
-* Selección de sala destino.
-* Visualización del mapa del campus.
-* Visualización gráfica de rutas.
-* Panel de instrucciones de navegación.
-
-## Gestión de datos
-
-* Separación entre datos y lógica de negocio.
-* Carga de información desde recursos del proyecto.
-* Administración centralizada de información del campus.
-
----
-
-# Arquitectura del sistema
-
-El proyecto implementa el patrón Modelo–Vista–Controlador (MVC).
-
-## Modelo
-
-Representa las entidades del dominio:
-
-* Ubicacion
-* Edificio
-* Sala
-* PuntoReferencia
-* Nodo
-* Ruta
-
-## Vista
-
-Gestiona la interacción con el usuario:
-
-* BienvenidaView
-* MapaView
-* InstruccionesView
-
-## Controlador
-
-Coordina la comunicación entre modelo y vistas:
-
-* AppController
-* BusquedaController
-
-## Datos
-
-Gestiona la carga y administración de información:
-
-* RepositorioDatos
-* GrafoLoader
-
----
-
-# Estructura del proyecto
-
-```text
-src
-├── main
-│
-├── java
-│   ├── controlador
-│   ├── datos
-│   ├── launcher
-│   ├── modelo
-│   └── vista
-│
-└── resources
-    ├── data
-    └── img
-```
-
----
-
-# Tecnologías utilizadas
-
-* Java 17
-* Swing
-* Maven
-* Git
-* GitHub
-* IntelliJ IDEA
+**Programación Orientada a Objetos — Universidad de La Frontera**
+Facultad de Ingeniería y Ciencias
 
 ---
 
@@ -241,4 +118,60 @@ Run 'Main.main()'
 Universidad de La Frontera
 Facultad de Ingeniería y Ciencias
 
-**Año 2026**
+**Profesor:** Samuel Sepúlveda
+
+## Tecnologías
+
+| Tecnología    | Para qué sirve                |
+|---------------|---------------------------------|
+| Java 17       | Lenguaje base                    |
+| Maven         | Gestión de dependencias           |
+| json-simple   | Leer archivos JSON                 |
+| jxmapviewer2  | Mapa interactivo OpenStreetMap/Swing|
+| junit-jupiter | Pruebas unitarias                    |
+
+Todas las dependencias vienen de Maven Central, no hay que descargar nada manualmente.
+
+## Estructura del proyecto
+```
+src/main/java/
+├── controlador/    AppController, BusquedaController
+├── datos/          RepositorioDatos, GrafoLoader
+├── launcher/       Main
+├── modelo/         Ubicacion, Edificio, Sala, PuntoReferencia, Nodo, Ruta
+└── vista/          BienvenidaView, MapaView, InstruccionesView
+
+src/main/resources/data/
+├── edificios.json
+├── salas.json
+├── puntos.json
+└── nodos.csv
+
+src/test/java/test/
+└── RepositorioDatosTest.java
+```
+
+## Cómo ejecutar
+1. Abre IntelliJ → **Open** → selecciona la carpeta `SalasFicaHub`
+2. IntelliJ detecta el `pom.xml` → clic en **Load Maven Project**
+3. Maven descarga las dependencias automáticamente (requiere internet la primera vez)
+4. Ejecuta `launcher/Main.java`
+
+## Funcionamiento del mapa
+El mapa carga tiles de OpenStreetMap en tiempo real, así que requiere conexión
+a internet para mostrarse. El cálculo de rutas no necesita internet — solo la
+imagen del mapa.
+
+## Datos de navegación
+`nodos.csv`, `puntos.json`, `salas.json` y `edificios.json` (en
+`src/main/resources/data/`) contienen el modelo de datos del campus que usa
+el motor de rutas. No editar `nodos.csv` a mano — cualquier edición manual
+puede romper la coherencia de las conexiones entre nodos. El detalle técnico
+del modelo de datos y del motor de rutas se presenta en la exposición del
+proyecto.
+
+## Ramas
+- `master` — rama principal protegida
+- `feature/jonathan` — Jonathan Manquel
+- `feature/bastian` — Bastián Escobar
+- `feature/vicente` — Vicente Flores
